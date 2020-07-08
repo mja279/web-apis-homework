@@ -29,7 +29,6 @@ body {
       border-radius: 50px;
       margin: 10px 40px 10px 0px;
       padding: 10px 10px;
-
   }
 
  #timer, .time {
@@ -63,13 +62,12 @@ body {
 
   #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
       cursor: pointer;
-      background-color: chocolate;
+      background-color: #4a2758c4;
   }
 
   #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
      outline: 0;
   }
-
 
 
 

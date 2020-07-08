@@ -28,7 +28,7 @@ function sendMessage() {
 
 setTime();
 
-
+// Not sure how to make subtraction of time work
 // function guess(id, guess) {
 //     var button = document.getElementById(id);
 //     button.onclick = function () {
