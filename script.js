@@ -71,8 +71,8 @@ function showProgress() {
 }
 
 function showScores() {
-    var gameOverHtml = "<h1>Result</h1>";
-    gameOverHtml += "<h2 id='score'> Your scores: " + quiz.score + "</h2>";
+    var gameOverHtml = "<h1>Final Result</h1>";
+    gameOverHtml += "<h2 id='score'> Your score: " + quiz.score + " out of 5 </h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 };
@@ -93,16 +93,3 @@ var quiz = new Quiz(questions);
 
 populate();
 
-// var score = 0;
-
-// for(var i=0; i < questions.length; i++) {
-//     var response = window.prompt(questions[i].prompt);
-//     if(response == questions[i].answer) {
-//         score++;
-//         alert("Correct!");
-//     } else {
-//         alert("Wrong");
-//     }
-// }
-
-// alert ("you got " + score + "/" + questions.length)

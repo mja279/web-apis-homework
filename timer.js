@@ -13,6 +13,7 @@ function setTime() {
       sendMessage();
     }
 
+    
   }, 1000);
 }
 
@@ -26,3 +27,15 @@ function sendMessage() {
 }
 
 setTime();
+
+
+// function guess(id, guess) {
+//     var button = document.getElementById(id);
+//     button.onclick = function () {
+//         quiz.guess(guess);
+//         populate();
+        
+//         if(guess(id, guess:false);
+//         secondsLeft -= 10;
+//     }
+// };
