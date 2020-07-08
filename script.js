@@ -50,7 +50,8 @@ function populate () {
            guess("btn" + i, choices[i]); 
         }
 
-        showProgress();
+    showProgress();
+
     }
 };
 
@@ -60,7 +61,7 @@ function guess(id, guess) {
         quiz.guess(guess);
         populate();
     }
-};
+};      
 
 function showProgress() {
     var currentQuestionNumber = quiz.questionsIndex + 1;
@@ -77,7 +78,7 @@ function showScores() {
 
     //Logic from Question(text, choices, answer)
 var questions = [
-    new Question ("Commonly used data types DO NOT include:", ["strings", "booleans", "alerts", "numbers"], "4"),
+    new Question ("Commonly used data types DO NOT include:", ["strings", "booleans", "alerts", "numbers"], "alerts"),
     new Question ("The condition in an 'if/else' statement is enclosed within ______.", ["quotes", "curly brackets", "parentheses", "square brackets"], "parentheses"),
     new Question ("Arrays in Javascript can be used to store ______.", ["numbers and strings", "other arrays", "booleans", "all of the above"], "all of the above"),
     new Question ("String values must be enclosed within ______ when being assigned to variables.", ["commas", "curly brackets", "quotes", "parantheses"], "quotes"),
