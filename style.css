@@ -10,6 +10,7 @@ body {
       margin-top: 30px;
   }
 
+
   #btn0, #btn1, #btn2, #btn3 {
       background-color: coral;
       width: 250px;
@@ -22,6 +23,18 @@ body {
 
   }
 
+  #timer {
+    font-size: 15px;
+    text-align: right;
+}
+
+#seconds {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+
   #score {
       color: black;
       text-align: center;
@@ -30,7 +43,7 @@ body {
 
   #progress {
       color: blue;
-      font-size: 10px;
+      font-size: 20px;
   }
 
   #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {

@@ -51,7 +51,7 @@ function populate () {
         }
 
     showProgress();
-
+  
     }
 };
 
@@ -61,7 +61,8 @@ function guess(id, guess) {
         quiz.guess(guess);
         populate();
     }
-};      
+};
+
 
 function showProgress() {
     var currentQuestionNumber = quiz.questionsIndex + 1;
@@ -75,6 +76,9 @@ function showScores() {
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 };
+
+ 
+
 
     //Logic from Question(text, choices, answer)
 var questions = [
