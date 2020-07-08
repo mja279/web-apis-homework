@@ -78,8 +78,6 @@ function showScores() {
 };
 
  
-
-
     //Logic from Question(text, choices, answer)
 var questions = [
     new Question ("Commonly used data types DO NOT include:", ["strings", "booleans", "alerts", "numbers"], "alerts"),
