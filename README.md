@@ -16,3 +16,12 @@ Submission:
 * The URL of the functional, deployed application: https://mja279.github.io/web-apis-homework/ 
 
 * The URL of the GitHub repository: https://github.com/mja279/web-apis-homework
+
+Screenshots:
+
+<img src="https://github.com/mja279/web-apis-homework/blob/master/Assets/Coding%20Quiz.gif">
+
+<img src="https://github.com/mja279/web-apis-homework/blob/master/Assets/Screenshot_1.png">
+
+<img src="https://github.com/mja279/web-apis-homework/blob/master/Assets/Screenshot_2.png">
+
