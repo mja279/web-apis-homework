@@ -88,8 +88,12 @@ function showScores() {
 
     // nested fxn to store user data
     function nameInput(){
-        var 
-    }
+        var name = localStorage.getItem("score");
+
+        if (!name) {
+            return;
+        }
+    };
 };
 
     //Logic from Question(text, choices, answer)
