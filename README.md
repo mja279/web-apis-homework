@@ -10,6 +10,8 @@ Challenges:
 
 - I was NOT able to figure out how to subtract time from timer when an answer is wrong. 
 - I was DID NOT have a chance to show when wrong answer is selected, change the color to red. 
+- I was having trouble in storing the user inputted data. I tried to create a nested function, perhaps it is the
+classes that are not set up correctly or that I'm trying to work with innerHTML and the way I'm trying to go about it is not the most efficient. 
 
 Submission:
 

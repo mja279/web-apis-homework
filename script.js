@@ -87,11 +87,11 @@ function showScores() {
     document.getElementById("score").appendChild(button);
     
 
-    // nested fxns to store user data
+    // NOT WORKING: nested fxns to store user data
     nameInput();
 
     var msgDiv = document.querySelector("#input-group");
-    var nameInput = document.querySelector("#form-control");
+    var nameInput = document.querySelector("#input-group");
     var submitButton = document.querySelector("#button");
     var userNameSpan = document.querySelector("#form-control");
 
