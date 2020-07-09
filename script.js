@@ -85,15 +85,45 @@ function showScores() {
     button.classList.add('btn','btn-success');
     button.innerHTML = "Submit";
     document.getElementById("score").appendChild(button);
+    
 
-    // nested fxn to store user data
+    // nested fxns to store user data
+    nameInput();
+
+    var msgDiv = document.querySelector("#input-group");
+    var nameInput = document.querySelector("#form-control");
+    var submitButton = document.querySelector("#button");
+    var userNameSpan = document.querySelector("#form-control");
+
+    function displayMessage(type, message) {
+        msgDiv.textContent = message;
+        msgDiv.setAttribute("class", type);
+      }
+
     function nameInput(){
-        var name = localStorage.getItem("score");
-
+        var name = localStorage.getItem("input-group");
         if (!name) {
             return;
         }
-    };
+        userNameSpan.textContent = name;
+    }
+
+    submitButton.addEventListener("button", function(event) {
+        event.preventDefault();
+      
+        var name = document.querySelector("#form-control").value;
+      
+        if (name === "") {
+          displayMessage("error", "name cannot be blank");
+        } else {
+          displayMessage("success", "Recorded successfully");
+      
+          localStorage.setItem("name", name);
+        
+          nameInput();
+        }
+      });
+
 };
 
     //Logic from Question(text, choices, answer)
