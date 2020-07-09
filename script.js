@@ -72,12 +72,26 @@ function showProgress() {
 
 function showScores() {
     var gameOverHtml = "<h1>Final Result</h1>";
-    gameOverHtml += "<h2 id='score'> Your score: " + quiz.score + " out of 5 </h2>";
+    gameOverHtml += "<h2 id='score'> Your score: " + quiz.score + " out of 5 </h2>" + "</br>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
+
+    let form = document.createElement('input-group');
+    form.classList.add('form-control');
+    form.innerHTML = "Name";
+    document.getElementById("score").appendChild(form);
+
+    let button = document.createElement('button');
+    button.classList.add('btn','btn-success');
+    button.innerHTML = "Submit";
+    document.getElementById("score").appendChild(button);
+
+    // nested fxn to store user data
+    function nameInput(){
+        var 
+    }
 };
 
- 
     //Logic from Question(text, choices, answer)
 var questions = [
     new Question ("Commonly used data types DO NOT include:", ["strings", "booleans", "alerts", "numbers"], "alerts"),
